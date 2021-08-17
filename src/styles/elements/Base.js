@@ -4,10 +4,10 @@ const Base = createGlobalStyle`
     body,
 	 header,
 	 main {
-		color: #fff;
-		font-size: 1rem;
-		text-align: left;
 		font-family: 'Quicksand', sans-serif;
+		font-size: 1rem;
+		color: #fff;
+		text-align: left;
       background-color: #e74c3f;
 		overflow: hidden; /* Hide scrollbars */
     }

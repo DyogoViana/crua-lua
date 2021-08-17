@@ -5,9 +5,9 @@ const Header = styled.header`
 	display: flex;
 	flex-direction: column;
 	align-items: left;
-	padding: 1.5em;
 	justify-content: center;
-	background-color: cyan;
+	padding: 1.5em;
+	background-color: tomato;
 `;
 
 export default Header;

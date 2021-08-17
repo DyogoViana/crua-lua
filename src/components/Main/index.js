@@ -5,7 +5,6 @@ const Main = styled.main`
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	/* background-color: gray; */
 	height: 70vh;
 `;
 

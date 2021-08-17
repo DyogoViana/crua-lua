@@ -10,7 +10,7 @@ const Nav = styled.nav`
 	padding: 1em;
 	justify-content: center;
 	height: 20vh;
-	background-color: green;
+	background-color: tomato;
 `;
 
 export default Nav;
