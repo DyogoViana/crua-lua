@@ -6,7 +6,6 @@ const Header = styled.header`
 	flex-direction: column;
 	align-items: left;
 	justify-content: center;
-	padding: 1.5em;
 `;
 
 export default Header;
