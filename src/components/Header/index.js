@@ -7,7 +7,6 @@ const Header = styled.header`
 	align-items: left;
 	justify-content: center;
 	padding: 1.5em;
-	background-color: tomato;
 `;
 
 export default Header;
