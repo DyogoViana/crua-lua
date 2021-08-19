@@ -10,37 +10,26 @@ const FooterStyle = styled.footer`
 	padding: 1em;
 	justify-content: center;
 	height: 20vh;
-	background-color: tomato;
 
 	&  ul {
-		padding: 0;
-		margin: 0;
 		list-style: none;
-	}
-
-	&  h1 {
-		width: 200px;
-		height: 50px;
-		margin: 0 auto;
-	}
-
-	&  ul {
-		background: #c8e0e8;
-		border-bottom: 1px solid #cacaca;
 	}
 
 	&  li {
 		display: inline-block;
-		border-right: 1px solid #999;
 	}
 
 	&  li a {
-		text-transform: uppercase;
-		font-weight: bold;
-		color: #000;
+		color: #fff;
 		text-decoration: none;
 		display: block;
-		padding: 8px 20px;
+		padding: 1em 2em;
+
+	}
+
+	li a:hover {
+		padding-bottom: 1em;
+		border-bottom: 3px solid #fff;
 	}
 `;
 
