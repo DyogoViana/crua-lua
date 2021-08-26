@@ -1,11 +1,16 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+
+let linkAtivo = {
+	color: "green"
+};
 
 const Navegacao = () => {
 	return (
 		<ul>
-			<li><a href="#">Trabalhos</a></li>
-			<li><a href="#">Sobre</a></li>
-			<li><a href="#">Instagram</a></li>
+			<li><NavLink exact activeStyle={linkAtivo} to="/trabalhos">Trabalhos</NavLink></li>
+			<li><NavLink exact activeStyle={linkAtivo}>Sobre</NavLink></li>
+			<li><NavLink exact activeStyle={linkAtivo}>Instagram</NavLink></li>
 		</ul>
 	);
 };

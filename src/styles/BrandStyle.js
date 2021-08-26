@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Brand = styled.div`
+const BrandStyle = styled.div`
 	width: 5em;
 	height: 1.5em;
 	padding: 1em 0 1em 4em;
@@ -12,4 +12,4 @@ const Brand = styled.div`
 	}
 `;
 
-export default Brand;
+export default BrandStyle;

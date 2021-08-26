@@ -1,6 +1,6 @@
 import React from 'react';
 import Navegacao from '../Nav/Navegacao';
-import FooterStyle from './style';
+import FooterStyle from '../../styles/FooterStyle';
 
 const Footer = () => (
 	<FooterStyle>

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Reset from './generic/Reset';
-import Base from './styles/elements/Base';
+import Base from './styles/Base';
 
 import App from './App';
 

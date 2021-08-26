@@ -1,19 +1,19 @@
 import React from 'react';
 
-import Header from './components/Header';
-import Brand from './components/Brand';
-import Title from './components/Title';
-import Main from './components/Main';
+import Main from './components/Main/Main';
 import Footer from './components/Footer/Footer';
+import TitleStyle from './styles/TitleStyle';
+import HeaderStyle from './styles/HeaderStyle';
+import BrandStyle from './styles/BrandStyle';
 
 function App() {
 	return (
 		<>
-			<Header>
-				<Brand>Crua Lua</Brand>
-			</Header>
+			<HeaderStyle>
+				<BrandStyle>Crua Lua</BrandStyle>
+			</HeaderStyle>
 			<Main>
-				<Title>Agenda de fevereiro. aberta</Title>
+				<TitleStyle>Agenda de fevereiro. aberta</TitleStyle>
 			</Main>
 			<Footer />
 		</>

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Header = styled.header`
+const HeaderStyle = styled.header`
 	font-weight: 500;
 	display: flex;
 	flex-direction: column;
@@ -8,4 +8,4 @@ const Header = styled.header`
 	justify-content: center;
 `;
 
-export default Header;
+export default HeaderStyle;
